@@ -1,5 +1,5 @@
 {
-  "pluginName": "helloWorld",
+  "pluginName": "测试插件",
   "description": "我的第一个 rubick 插件",
   "main": "index.html",
   "version": "0.0.1",

@@ -1,9 +1,17 @@
 <!DOCTYPE html>
 <html>
 <body>
-  hello world
+  hello world v2.0
+  <button id="hideMainWindow">隐藏主窗口</button>
+  <button id="showNotification">通知</button>
 </body>
 <script>
-  alert(window.readConfig())
+  window.readConfig();
+  document.getElementById('hideMainWindow').addEventListener('click', () => {
+    window.hideMainWindow();
+  })
+  document.getElementById('showNotification').addEventListener('click', () => {
+    window.showNotification();
+  })
 </script>
 </html>

@@ -11,7 +11,14 @@
     {
       "code": "hello",
       "explain": "这是一个测试的插件",
-      "cmds":["hello222", "你好"]
+      "cmds":[
+        "hello",
+        "你好",
+        {
+          "type": "img",
+          "label": "上传到图床"
+        }
+      ]
     }
   ],
   "preload": "preload.js"
